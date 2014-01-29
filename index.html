@@ -4,9 +4,19 @@
     <meta charset="utf-8">
     <title>Badass Gamertag Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="badass_data.js"></script>
     <script src="badass_gamertags.js"></script>
   </head>
   <body>
-
+    <h1>Badass Gamertag Generator</h1>
+    <p>Your badass Gamertag is:</p>
+    <p id="badass_gamertag"></p>
+    <script>
+      // the DOM will be available here
+      // Poor man's $(document).ready()
+      var badass_gamertag_element;
+      badass_gamertag_element = document.getElementById('badass_gamertag');
+      badass_gamertag_element.textContent = generate_badass_gamertag();
+    </script>
   </body>
 </html>
