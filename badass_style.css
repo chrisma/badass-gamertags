@@ -1,0 +1,15 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Audiowide';
+}
+
+#badass_heading {
+	font-size: 400%;
+}
+
+#badass_gamertag {
+	font-size: 300%;
+	text-shadow: 2px 2px 1px gray;
+}
