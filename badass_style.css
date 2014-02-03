@@ -13,20 +13,21 @@ body {
 
 #badass_heading {
 	font-size: 400%;
-	text-shadow: 2px 2px 1px gray;
+	margin-bottom: 10px;
+	/*text-shadow: 2px 2px 1px gray;*/
 }
 
 #badass_gamertag {
-	font-size: 300%;
+	font-size: 320%;
 	text-shadow: 2px 2px 1px gray;
 }
 
 #badass_button {
   background-image: -webkit-linear-gradient(top, #ebebeb, #c2c2c2);
-  background-image: -moz-linear-gradient(top, #ebebeb, #c2c2c2);
-  background-image: -ms-linear-gradient(top, #ebebeb, #c2c2c2);
-  background-image: -o-linear-gradient(top, #ebebeb, #c2c2c2);
-  background-image: linear-gradient(to bottom, #ebebeb, #c2c2c2);
+  background-image:    -moz-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image:     -ms-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image:      -o-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image:   linear-gradient(to bottom, #ebebeb, #c2c2c2);
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
@@ -41,9 +42,23 @@ body {
 
 #badass_button:hover {
   background-image: -webkit-linear-gradient(top, #adadad, #8f8f8f);
-  background-image: -moz-linear-gradient(top, #adadad, #8f8f8f);
-  background-image: -ms-linear-gradient(top, #adadad, #8f8f8f);
-  background-image: -o-linear-gradient(top, #adadad, #8f8f8f);
-  background-image: linear-gradient(to bottom, #adadad, #8f8f8f);
+  background-image:    -moz-linear-gradient(top, #adadad, #8f8f8f);
+  background-image:     -ms-linear-gradient(top, #adadad, #8f8f8f);
+  background-image:      -o-linear-gradient(top, #adadad, #8f8f8f);
+  background-image:   linear-gradient(to bottom, #adadad, #8f8f8f);
   text-decoration: none;
+}
+
+#badass_announce {
+	margin-top: 40px;
+}
+
+#badass_horizontal_rule {
+  width: 50%;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
 }
