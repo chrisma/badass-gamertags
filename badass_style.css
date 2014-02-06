@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
 	background:
 		radial-gradient(black 15%, transparent 16%) 0 0,
@@ -9,17 +14,17 @@ body {
 	color: white;
 	text-align: center;
 	font-family: 'Audiowide';
+	margin-bottom: 10px; /* footer height */
 }
 
 #badass_heading {
 	font-size: 400%;
 	margin-bottom: 10px;
-	/*text-shadow: 2px 2px 1px gray;*/
 }
 
 #badass_gamertag {
 	font-size: 320%;
-	text-shadow: 2px 2px 1px gray;
+	text-shadow: 2px 2px 1px black;
 }
 
 #badass_button {
@@ -28,16 +33,13 @@ body {
   background-image:     -ms-linear-gradient(top, #ebebeb, #c2c2c2);
   background-image:      -o-linear-gradient(top, #ebebeb, #c2c2c2);
   background-image:   linear-gradient(to bottom, #ebebeb, #c2c2c2);
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
   border-radius: 5px;
   text-shadow: 2px 2px 1px #383838;
-  -webkit-box-shadow: 0px 1px 3px #666666;
-  -moz-box-shadow: 0px 1px 3px #666666;
   font-family: 'Audiowide';
   color: #ffffff;
   font-size: 120%;
   padding: 5px 10px 5px 10px;
+  margin-bottom: 40px;
 }
 
 #badass_button:hover {
@@ -61,4 +63,22 @@ body {
   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,255.75), rgba(0,0,0,0));
+}
+
+#badass_footer {
+	font-size: 75%;
+	color: #808080;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 26px;
+}
+
+a:link {
+	color: #B3B3B3;
+}
+
+a:visited {
+	color: #8F8F8F;
 }
