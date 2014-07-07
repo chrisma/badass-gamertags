@@ -34,11 +34,11 @@ body {
 }
 
 .badass_decoration#left {
-	margin-right:-25px;
+	margin-right:-40px;
 }
 
 .badass_decoration#right {
-	margin-left:-25px;
+	margin-left:-40px;
 	position:relative;
 	z-index: -1;
 }
