@@ -22,10 +22,25 @@ body {
 	margin-bottom: 10px;
 }
 
-#badass_gamertag {
+#badass_gamertag_container {
 	font-size: 320%;
 	text-shadow: 2px 2px 1px black;
-	padding: 25px;
+	margin: -40px 0px 85px 0px;
+}
+
+.badass_decoration {
+	height: 220px;
+	margin-bottom:-30px;
+}
+
+.badass_decoration#left {
+	margin-right:-25px;
+}
+
+.badass_decoration#right {
+	margin-left:-25px;
+	position:relative;
+	z-index: -1;
 }
 
 #badass_button {
