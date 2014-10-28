@@ -1,9 +1,10 @@
 badass-gamertags
 ================
 
-Badass Gamertag Generator.
+Badass Gamertag Generator. 
 
-See it in action at [badass-gamertags.cf][1].
+Your normal usernames aren't badass enough? Generate your next badass gamertag for being badass at games. Instill fear into the heart of the competition at the sight of your badass gamertag!"
 
+See it in action: [Badass-Gamertags.cf](http://badass-gamertags.cf).
 
-  [1]: http://badass-gamertags.cf/
+![badass picture](bgg.png)
