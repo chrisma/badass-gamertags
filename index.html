@@ -31,7 +31,7 @@
     <p id="badass_announce">Your badass gamertag is:</p>
     <div id="badass_gamertag_container">
       <img class="badass_decoration" id="left" src="wing.png">
-      <span id="badass_gamertag"></span>
+      <span id="badass_gamertag" class="animated tada"></span>
       <img class="badass_decoration" id="right" src="wing.png">
     </div>
     <button type="button" id="badass_button" autofocus>Generate another one!</button>
@@ -46,7 +46,6 @@
       // Poor man's $(document).ready()
       var badass_gamertag_element = document.getElementById('badass_gamertag');
       badass_gamertag_element.textContent = generate_badass_gamertag();
-      badass_gamertag_element.className="animated tada";
 
       var badass_button = document.getElementById('badass_button');
       badass_button.onclick = function() {
