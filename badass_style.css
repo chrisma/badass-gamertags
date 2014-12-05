@@ -49,6 +49,13 @@ body {
 	-ms-filter: "FlipH";
 }
 
+.badass_fast_animations {
+	-webkit-animation-duration: 0.2s;
+	-moz-animation-duration: 0.2s;
+	-ms-animation-duration: 0.2s;
+	-o-animation-duration: 0.2s;
+}
+
 #badass_button {
 	background-image: -webkit-linear-gradient(top, #ebebeb, #c2c2c2);
 	background-image:    -moz-linear-gradient(top, #ebebeb, #c2c2c2);
