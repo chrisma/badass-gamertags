@@ -9,6 +9,6 @@ Instill fear into the heart of the competition at the sight of your badass gamer
 
 See it in action: [http://chrisma.github.io/badass-gamertags/](http://chrisma.github.io/badass-gamertags/).
 
-![badass picture](bgg.png)
+<img src="bgg.png" width="500">
 
 <sub>* Increase in badassery and increase in game performance not guaranteed. (But highly assumed.)</sub>
